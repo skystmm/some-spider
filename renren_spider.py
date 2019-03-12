@@ -11,9 +11,9 @@ driver.get('http://renren.com')
 print(driver.page_source)
 print("---------------***************---------------------")
 input1 = driver.find_element("id", "email")
-input1.send_keys("st231@163.com")
+input1.send_keys("****")
 input2 = driver.find_element("id", "password")
-input2.send_keys("900213st")
+input2.send_keys("*****")
 
 
 driver.find_element("id", "login").click()
